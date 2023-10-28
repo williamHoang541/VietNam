@@ -1,0 +1,157 @@
+
+body {
+    width: 95%;
+    height: auto;
+    margin: auto;
+ }
+ * {
+   box-sizing: border-box;
+ }
+ 
+ .h1::after {
+   content: "";
+   clear: both;
+   display: block;
+ }
+ 
+ [class*="col-"] {
+   float: left;
+   padding: 0px;
+ }
+ 
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+ 
+ .menu {
+     background-color: none;
+     border: none;
+     overflow:hidden;
+     
+    
+ }
+ .menu ul {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+     
+ }
+ 
+ .menu li {
+     text-align: center;
+     padding: 2.5%;
+     font-weight: bold;
+ }
+ .col-2{
+     width: 20%;
+ }
+ .menu li:nth-child(2) {
+     text-align: left;
+ }
+ .menu li:nth-child(3) {
+     text-align: right;
+     padding-left: 10%;
+    
+ }
+ .menu li:nth-child(4) {
+     padding-left: 7.5%;
+ }
+
+ 
+ .menu li a {
+     text-decoration: none;
+     text-transform: uppercase;
+     color: gray;
+ }
+ 
+ .menu li a:hover {
+   color: red;
+ }
+ 
+ .h2 {
+     width: 100%;
+     height: auto;
+     position: relative;
+     
+     display: inline-block;
+ }
+ .biig {
+     width: 100%;
+ }
+ .tit h1 {
+     position: absolute;
+     color: white;
+     margin-top: 10%;
+     left: 6%;
+     font-size: 350%;
+ }
+ .tit p {
+     position: absolute;
+     color: white;
+     margin-top: 16%;
+     left: 6%;
+     font-size: 130%;
+ }  
+ .main {
+     background-color: #DDDDDD;
+     display: inline-block;
+     margin-top: -3px;
+     
+ }
+ .h3 {
+     
+     display: inline-block;
+     padding-right: 3.2%;
+    
+ }
+ .h3 img {
+     display: inline-block;
+     width: 100%;
+     height: auto;
+     padding-left: 10%;
+     padding-bottom: 8%;
+ }
+ 
+ .main h2, .main p  {
+     padding-left: 3.3%;
+ }
+ .main p {
+     margin-bottom: 3%;
+ }
+ 
+ #footer {
+     position: relative;
+     display: inline-block;
+     width: auto;
+     background-color: #EEEEEE;
+     padding-bottom: 70px;
+     padding-top: 30px;
+     padding-left: 3.3%;
+ 
+ }
+ #footer div {
+     padding-right: 3.3%;
+ }
+ #footer a:link, #footer a:visited {
+     text-decoration: none;
+     color: #00CCFF;
+ }
+ #footer a:hover {
+     text-decoration: none;
+     color: #1dc75e;
+ }
+ p, h2, ul, #footer a {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ #footer, h4{
+     font-size: 100%;
+ }
